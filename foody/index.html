@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2d7fe3c722.js" crossorigin="anonymous"></script>
+    <title>LoveBytes</title>
+</head>
+<body>
+<header>
+    <div id="logo">
+        <span class="char1">L</span>
+    <span class="char2">O</span>
+    <span class="char3">V</span>
+    <span class="char4">E</span>
+    <span class="char5">B</span>
+    <span class="char6">Y</span>
+    <span class="char7">T</span>
+    <span class="char8">E</span>
+    <span class="char9">S</span>
+    </div>
+    <div id="favorites" class="dropdown">
+        <h2>FAV</h2>
+        <div id="favorite-dropdown" class="dropdown-content">
+            <ul id="favorite-list"></ul>
+        </div>
+        
+    </div>
+</header>
+<main>
+    <!-- Add your code below this line -->
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="What do you want to eat">
+        <button id="search-button">Search</button>
+        <ul id="search-suggestions"></ul>
+        <div id="search-results"></div>  
+    </div>
+</main>
+<section id="meal-section">
+    <div id="image-container"></div>
+    <!--trial-->
+    
+<div id="meal-name"></div>
+<button id="add-to-fav">Add To Fav</button>
+</section>
+
+<section id="meal-details">
+        <h1 id="instructions-heading" style="display:none;">Instructions</h1>
+        <div id="meal-instructions"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
