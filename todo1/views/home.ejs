@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>
+            <%= title %>
+        </title>
+        <script src="https://kit.fontawesome.com/87241837d4.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/css/home.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Courgette&family=Dancing+Script:wght@500&family=Great+Vibes&family=Inspiration&family=Lobster&family=Qwitcher+Grypen:wght@700&family=Roboto+Mono:wght@500&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="todo-container">
+        <h1>TO DO APP 
+            <img src="https://media.istockphoto.com/id/1193476717/photo/male-hands-making-a-to-do-list-in-a-notebook-over-an-office-desk.jpg?b=1&s=612x612&w=0&k=20&c=QFWZyHoAvAvcUz8tCHi4WufJEke-G1TFJO-KfZu7ErQ=" alt="todo image">
+        </h1>
+
+        <div class="form-container">
+            <form action="/create-to-do" method="post">
+                <span>Description:</span>
+                <input type="text" placeholder="enter your task" name="description" class="desc" required>
+                <select name="category" class="catag">
+                    <option value="Work" >Work</option>
+                    <option value="Office">Office</option>
+                    <option value="Personal">Personal</option>
+                    <option value="School">School</option>
+                </select>
+                <input type="date" name="date" class="deadline">
+                <button type="submit" class="btn"> <i class="fa-sharp fa-solid fa-plus"></i>ADD TASK</button>
+            </form>
+        </div>
+        <div class="list-container">
+            <ul>
+            <% for(let i of todo){%>
+    
+                <li>
+                   
+                    <p class="des-para"><%= i.description %></p>
+    
+                    <p><button class="catag-btn"><%= i.category %></button></p>
+    
+                    <p class="li-time"><i class="fa-solid fa-calendar"></i><%= i.time %></p>
+                
+                </li>
+         
+                <div>
+                    <button type="submit" class="delete-btn"><a href="/delete-toDo/?id=<%= i.id %>"><i class="fa-solid fa-trash"></i></a></button>
+            </div>
+            <%}%>
+        </ul>
+        </div>
+    </body>
+</html>

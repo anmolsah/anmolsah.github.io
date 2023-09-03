@@ -1,0 +1,174 @@
+body{
+    background:url('https://images.pexels.com/photos/3299/postit-scrabble-to-do.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.toDo-container{
+    box-shadow: 0px 0px 7px 0px black;
+    width : 600px;
+    height : 800px;
+    margin : 20px auto;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 15px;*/
+    text-shadow: 2px 2px;
+    /* text-shadow: 0px 0px 3px red; */
+}
+    
+h1 img {
+    width: 37px;
+    height: 32px;
+    border-radius: 1rem;
+    padding: 8px;
+}
+::placeholder{
+    font-size: 1.2rem;
+    padding : 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color : rgb(247, 247, 247);
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( 360deg,  rgba(252,123,123,1) -0.9%, rgba(255,187,147,1) 15.6%, rgba(252,169,245,1) 32.6%, rgba(251,253,134,1) 51.2%, rgba(150,254,179,1) 68.9%, rgba(157,164,253,1) 84.2%, rgba(202,130,253,0.98) 101.4% );
+}
+span{
+    font-size : 1.3rem;
+    margin-left : 15px;
+    margin-top : 5px;
+    font-weight: bold;
+    color: rgb(23, 18, 3);
+    text-align: left;
+    text-shadow: 0px 0px 3px rgba(233, 196, 196, 0.57);
+    font-family: 'Baloo Bhai 2', cursive;
+    line-height: 40px;
+}
+.desc{
+    width: 593px;
+    height: 60px;
+    margin-left : 3px;
+    font-size: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, black, transparent);
+    border-radius: 10rem;
+    color : rgb(245, 240, 240);
+    border : none;
+}
+
+.catag{
+    width : 300px;
+    height: 60px;
+    font-size : 1.2rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-color : grey;
+    margin-left : 3px;
+    border-radius: 10rem;
+    background-color: rgb(132, 200, 100);
+    text-align: center;
+    font-weight: 800;
+    cursor: pointer;
+}
+.deadline{
+    width : 290px;
+    height: 60px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Roboto Mono', monospace;
+    border-color : grey;
+    border : none;
+    border : 1px solid grey;
+    border-radius: 10rem;
+    background-color: rgb(248, 248, 66);
+    margin-top: 3px;
+    cursor: pointer;
+}
+p{
+    margin-bottom : -30px;
+
+}
+
+.btn{
+    width : 250px;
+    padding : 13px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-left : 180px;
+    margin-top : 30px;
+    background-image: radial-gradient( circle 897px at 9% 80.3%,  rgba(55,60,245,1) 0%, rgba(234,161,15,0.90) 100.2% );
+    color : white;
+    border : none;
+    box-shadow: 0px 0px 7px black;
+    border-radius: 10rem;
+    cursor: pointer;
+}
+i{
+    padding : 5px;
+    font-weight: bolder;
+}
+
+/* List container */
+.list-container{
+    width : 600px;
+    height : 80px;
+    /* border : 1px solid grey; */
+    margin-top: 40px;
+    /* background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% ); */
+   
+}
+ul{
+    border: 1px solid grey;
+    background-image: linear-gradient( 91.9deg,  rgba(0,29,38,1) 2.6%, rgba(0,191,255,1) 99.1% );
+    color : white;
+}
+li {
+    border: 1px solid grey;
+    border-bottom : none;
+    border-right : none;
+    border-left : none;
+    
+}
+.catag-btn{
+    position : relative;
+    left : 50%;
+    bottom : 7px;
+    width: 90px;
+    font-size: 1.2rem;
+    height: 33px;
+    font-family: auto;
+    background: white;
+    border: none;
+    border-radius: 10rem;
+    color : rgb(27, 25, 25);
+    font-weight: bold;
+}
+
+.delete-btn{
+    position : relative;
+    left :90%;
+    bottom : 25px;
+    background : none;
+    border : none;
+    font-size: 1.4rem;
+    
+}
+.delete-btn i{
+   color: red;
+}
+.des-para{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: #fff6f6;
+    margin-top: 0px;
+}
+.li-time i{
+    margin-right: 3px;
+    font-size: 20px;
+    color : grey
+}
