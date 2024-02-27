@@ -21,7 +21,7 @@ A simple and collaborative online whiteboard for drawing, sketching, and brainst
     git@github.com:anmolsah/anmolsah.github.io.git
     ```
 2.   Navigate to the Boardy Directory.
-    ```bash
+     ```bash
     cd anmolsah.github.io/boardy
     code .
     ```
@@ -52,4 +52,5 @@ Contributions are welcome! Feel free to open a pull request or submit an issue w
 
 ## License
 
-This project is licensed under the MIT License - see the (LICENSE.md) file for details.
+This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
+
