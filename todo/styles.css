@@ -1,0 +1,209 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+     background-attachment: fixed; 
+     background-position: center; 
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+   background-image:url(background/image-5.jpg);
+}
+
+.body-theme-1{
+    background-image: url(background/image-1.jpg);
+}
+
+.body-theme-2{
+    background-image: url(background/image-2.jpg);
+}
+
+.body-theme-3{
+    background-image: url(background/image-3.jpg);
+}
+
+.body-theme-4{
+    background-image: url(background/image-4.jpg);
+}
+
+/* heading and its features */
+
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color:#394816; 
+    font-weight: 600;
+    
+}
+ .rotate{
+    color: rgb(7, 220, 60);
+    font-size: 70px;
+    animation: rotateLetter .5s infinite;
+ }
+
+ @keyframes rotateLetter{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+ }
+
+/* container and its features */
+
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+   background-color: rgba(255, 255, 255, 0.12); 
+  border-radius: 8px;
+  box-shadow: 0 2px 4ps rgba(0, 0,0, .02);
+}
+
+.todo-input{
+  width: 95%;
+  padding: 10px;
+  border: none;
+  background-color: #dadae0f2;
+  font-size: 16px;
+  font-family:Arial, Helvetica, sans-serif ;
+
+}
+
+.add-button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #13c47d;
+    cursor: pointer;  
+    margin-left: 220px;
+    border-radius: 40px;
+    animation: zoomInOut 2s infinite;
+}
+
+@keyframes zoomInOut{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+} 
+
+.add-button:hover{
+    background-color:rgb(236, 105, 184) ;
+}
+
+.todo-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 550;
+    border-bottom: 2px solid #dadae0f2;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+.todo-item:last-child {
+    border-bottom: none;
+   
+}
+
+.todo-item i{
+    cursor: pointer;
+    color:#9ed383;
+    border: none;
+}
+
+i:hover{
+    color:rgb(234, 10, 10);
+}
+ 
+.todo-item .checkbox{
+    margin-right: 10px;
+    
+}
+
+.todo-item.checked{
+    text-decoration:line-through;
+    color:#3f4e3e; 
+}
+
+.checkbox{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;  
+}
+
+
+/* task left */
+
+ p{
+    font-weight: 400;
+    animation: blinking 1s infinite;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+@keyframes blinking{
+    0%{
+        color:rgb(250, 22, 9);
+    }
+}
+
+
+#quote-container{
+    display: none;
+    margin: 30px;
+}
+
+#quote-text{
+    animation: none;
+    font-style: italic;
+    color: #1fe5db;
+    font-weight: 550;
+    font-size: 30px;;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 0;
+    animation: textRevel 3s forwards;
+}
+
+@keyframes textRevel{
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity: 1; 
+    }
+}
+
+.timer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: 400;
+    font-size: 25px;
+    
+}
+
+
+ 
+.timer-button{
+    cursor: pointer;
+    font-size: 15px;
+    font-style:italic;
+    background-color: #13c47d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    
+}
+
+.timer-button:hover{
+    background-color:rgb(236, 105, 184) ;
+} 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2d7fe3c722.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>TODO</title>
+</head>
+<body>
+    <h1>T<span class="rotate">O</span>D<span class="rotate">O</span> &nbsp LiSt</h1>
+    <div class="container"> 
+        <input  type="text" class="todo-input" placeholder="Type your todo list" >
+        <button class="add-button">
+         <i class="fa-regular fa-square-plus"></i>   
+        </button>
+        <div id="todo-list"></div>
+        
+        
+        <div class="timer-container">
+            <p><span id="total-tasks">0</span>Task Left</p>
+            <span id="timer-display">00:00</span>   
+        </div>
+        
+    </div>
+
+    <div id="quote-container">
+       
+        <p id="quote-text"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
