@@ -16,16 +16,19 @@ A simple and collaborative online whiteboard for drawing, sketching, and brainst
 
 ### Installation
 
-1.  Clone this repository:
+1. **Clone this repository:**
+
     ```bash
-    git@github.com:anmolsah/anmolsah.github.io.git
+    git clone git@github.com:anmolsah/anmolsah.github.io.git
     ```
-2.   Navigate to the Boardy Directory.
-     ```bash
+
+2. **Navigate to the Boardy Directory:**
+
+    ```bash
     cd anmolsah.github.io/boardy
     code .
     ```
-    This command opens the boardy directory in Visual Studio Code.
+    This command opens the `boardy` directory in Visual Studio Code
 
 ###  access the live website and start using
 
