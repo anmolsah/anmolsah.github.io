@@ -16,15 +16,23 @@ A simple and collaborative online whiteboard for drawing, sketching, and brainst
 
 ### Installation
 
-1.  Clone this repository:
+1. **Clone this repository:**
+
     ```bash
-    git clone [git@github.com:anmolsah/Boardy.git]
+    git clone git@github.com:anmolsah/anmolsah.github.io.git
     ```
-2.  Open `index.html` in your web browser.
 
-### Or, access the live demo
+2. **Navigate to the Boardy Directory:**
 
-[Link to the live version of your whiteboard if it's hosted somewhere]
+    ```bash
+    cd anmolsah.github.io/boardy
+    code .
+    ```
+    This command opens the `boardy` directory in Visual Studio Code
+
+###  access the live website and start using
+
+https://anmolsah.github.io/Boardy/whiteboard.html
 
 ## Usage
 
@@ -47,4 +55,5 @@ Contributions are welcome! Feel free to open a pull request or submit an issue w
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
+
