@@ -1,0 +1,172 @@
+
+nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+
+  .menu-toggle{
+    display: none;
+  }
+  
+  
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      display: none; /* Hide the menu initially */
+    }
+  
+    nav ul.active {
+      display: flex; /* Show the menu when active */
+      justify-content: center;
+      align-items: center;
+    }
+  
+    nav a {
+      font-size: 1em;
+      padding: 15px;
+    }
+    
+    .menu-toggle {
+      display: block;
+      margin: 18px auto;
+      background-color: #444;
+      color: #fff;
+      border: 3px dotted rgb(19, 231, 19);
+      padding: 10px;
+      cursor: pointer;
+      font-size: 1.2em;
+    }
+  
+    .menu-toggle:hover {
+      background-color: #666;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    nav a {
+      font-size: 0.9em;
+      padding: 10px;
+    }
+    
+    .menu-toggle {
+      font-size: 1em;
+    }
+  }
+  
+@media (max-width: 768px){
+    header .name-header{
+        font-size:35px;
+    }  
+    
+    #about h2{
+        font-size: 30px;
+    }
+
+    #about .intro-text{
+        font-size: 12px;
+    }
+
+    #about .college-text{
+        font-size: 12px;
+    }
+
+    #about .future-text{
+        font-size: 12px;
+    }
+
+    #projects h2{
+        font-size: 30px;
+    }
+
+    #projects .slider{
+        width: 100%;
+        height:auto;    
+    }
+
+    #projects .project{
+       width: 100%;
+    }
+    #projects h3{
+        font-size: 20px;
+    }
+    #projects p{
+        font-size: 12px;
+    }
+
+    #projects .project-links a{
+        font-size: 10px;
+    }
+    #projects button{
+        font-size: 15px;
+    }
+
+    #skills h2{
+        font-size: 30px;
+    }
+    #skills .skill{
+        width:40px;
+        height: auto;
+    }
+    #skills .skill i{
+        font-size: 20px;
+    }
+
+    #skills .skill h3{
+        font-size: 9px;
+        color: white;
+    }
+    #contact h2{
+        font-size: 30px;
+    }
+    #contact .contact-info{
+        position: relative;
+        height: 300px;
+        width: 100%;
+    
+    }
+    #contact .contact-item{
+        position: absolute;
+        display: flex;
+        justify-content:end;
+        gap:10px;
+        align-items:normal;
+        overflow: hidden;
+    }
+
+    #contact .contact-info .contact-item i{
+        font-size: 18px;
+    }
+
+    #contact .contact-info .contact-item p{
+        font-size: 12px;
+    }
+
+    footer{
+        font-size: 12px;
+    }
+}

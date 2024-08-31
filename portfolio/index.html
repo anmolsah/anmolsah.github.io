@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2d7fe3c722.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <title>Anmol Portfolio</title>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1 class="name-header" data-easter-egg="true" id="name-trigger">Anmol Sah</h1>
+      </header>
+
+      <nav>
+        <button class="menu-toggle">☰ Menu</button>
+        <ul id="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+      <main>
+        <section id="home">
+          <h2 id="dynamic-title"></h2>
+
+          <img
+            src="images/img-2.jpg"
+            alt="Retro Style Photo"
+            class="retro-photo"
+          />
+
+          <p class="small-text">
+            Crafting nostalgic web experiences with a modern touch.
+          </p>
+
+          <a
+            href="images/Anmol_s_Resume_updated0.pdf"
+            download="My_Resume.pdf"
+            class="resume-button"
+            >Download My Resume</a
+          >
+
+          <div class="icons">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+            <i class="fab fa-react"></i>
+          </div>
+        </section>
+
+        <section id="about">
+          <h2>About Me</h2>
+          <p class="intro-text">
+            Hi there! I'm Anmol Sah, currently in my last year of college. I'm
+            passionate about web development and constantly enhancing my skills
+            in this domain. Alongside my academic pursuits, I'm diving deep into
+            the world of Data Structures and Algorithms using C++, aiming to
+            strengthen my problem-solving abilities.
+          </p>
+          <p class="college-text">
+            I'm studying at <strong>Siliguri Institute of Technology</strong>,
+            where I've been able to immerse myself in both theoretical and
+            practical aspects of computer science. The college environment has
+            provided me with ample opportunities to collaborate with peers, work
+            on exciting projects, and participate in various coding
+            competitions.
+          </p>
+          <p class="future-text">
+            I'm eager to apply my knowledge and skills in real-world projects. I
+            believe in continuous learning and am dedicated to honing my craft
+            to become a proficient developer.
+          </p>
+          <img
+            src="images/my_image.jpg"
+            alt="My Portrait"
+            class="retro-portrait"
+          />
+        </section>
+
+        <section id="projects">
+          <h2>My Projects</h2>
+
+          <div class="slider">
+            <div class="slides">
+              <div class="project slide">
+                <img
+                  src="images/projects_images/Screenshot 2024-04-10 000318.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+                <h3>Netflix Gemini</h3>
+                <p>
+                  Welcome to Netflix Gemini: Your personal movie advisor. Sign
+                  up, log in, and let our beautiful AI guide you through the
+                  endless choices of movies.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/anmolsah/NetflixGemini"
+                    class="btn github-btn"
+                  >
+                    <i class="fab fa-github"></i> View on GitHub
+                  </a>
+                  <a
+                    href="https://netflix-gemini.vercel.app/browse"
+                    class="btn live-btn"
+                  >
+                    <i class="fas fa-external-link-alt"></i> View Live
+                  </a>
+                </div>
+              </div>
+
+              <div class="project slide">
+                <img
+                  src="images/projects_images/rahi1.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+                <h3>Rahi</h3>
+                <p>
+                  RAHi is an AI-driven trip planner that crafts personalized
+                  itineraries based on your preferences and budget. Powered by
+                  React, Firebase, and Google APIs, RAHi offers a secure,
+                  seamless travel planning experience with easy social sharing
+                  and real-time data management.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/anmolsah/Traveler"
+                    class="btn github-btn"
+                  >
+                    <i class="fab fa-github"></i> View on GitHub
+                  </a>
+                  <a
+                    href="https://traveler-chi.vercel.app/"
+                    class="btn live-btn"
+                  >
+                    <i class="fas fa-external-link-alt"></i> View Live
+                  </a>
+                </div>
+              </div>
+
+              <div class="project slide">
+                <img
+                  src="images/projects_images/boardy.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+                <h3>Boardy</h3>
+                <p>
+                  Boardy is a collaborative online whiteboard enabling real-time
+                  drawing, with features like color picker, adjustable
+                  thickness, and undo/redo functionality.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/anmolsah/anmolsah.github.io/tree/main/Boardy"
+                    class="btn github-btn"
+                  >
+                    <i class="fab fa-github"></i> View on GitHub
+                  </a>
+                  <a
+                    href="https://anmolsah.github.io/Boardy/whiteboard.html"
+                    class="btn live-btn"
+                  >
+                    <i class="fas fa-external-link-alt"></i> View Live
+                  </a>
+                </div>
+              </div>
+
+              <div class="project slide">
+                <img
+                  src="images/projects_images/todo.png"
+                  alt="Project 4"
+                  class="project-img"
+                />
+                <h3>Todo</h3>
+                <p>
+                  I developed a feature-rich to-do list application using
+                  vanilla JavaScript, incorporating functionalities such as a
+                  timer, sorting options, and a theme changer.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/anmolsah/anmolsah.github.io/tree/main/todo"
+                    class="btn github-btn"
+                  >
+                    <i class="fab fa-github"></i> View on GitHub
+                  </a>
+                  <a
+                    href="https://anmolsah.github.io/todo/"
+                    class="btn live-btn"
+                  >
+                    <i class="fas fa-external-link-alt"></i> View Live
+                  </a>
+                </div>
+              </div>
+
+              <div class="project slide upcoming">
+                <div class="upcoming-content">
+                  <h3>Jobsy</h3>
+                  <p>
+                    Stay tuned for something exciting! This project is currently
+                    in the works and will be revealed soon.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="slider-btn prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="slider-btn next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </section>
+
+        <section id="skills">
+          <h2>Skills</h2>
+          <div class="skills-container">
+            <div class="skill">
+              <i class="fab fa-html5"></i>
+              <h3>HTML</h3>
+            </div>
+            <div class="skill">
+              <i class="fab fa-css3-alt"></i>
+              <h3>CSS</h3>
+            </div>
+            <div class="skill">
+              <i class="fab fa-js"></i>
+              <h3>JavaScript</h3>
+            </div>
+            <div class="skill">
+              <i class="fab fa-react"></i>
+              <h3>React</h3>
+            </div>
+            <div class="skill">
+              <i class="fas fa-server"></i>
+              <h3>Express</h3>
+            </div>
+            <div class="skill">
+              <i class="fas fa-database"></i>
+              <h3>MongoDB</h3>
+            </div>
+            <div class="skill">
+              <i class="fab fa-node-js"></i>
+              <h3>NodeJS</h3>
+            </div>
+            <div class="skill">
+              <i class="fab fa-github"></i>
+              <h3>Github</h3>
+            </div>
+            <div class="skill">
+              <i class="fas fa-code"></i>
+              <h3>C++</h3>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <h2>Contact Me</h2>
+          <div class="contact-info">
+            <div class="contact-item" style="top: 20%; left: 10%">
+              <i class="fas fa-envelope"></i>
+              <p>
+                Email:
+                <a href="mailto:annifind010@gmail.com">annifind010@gmail.com</a>
+              </p>
+            </div>
+            <div
+              class="contact-item"
+              style="top: 40%; left: 50%; transform: translateX(-50%)"
+            >
+              <i class="fas fa-phone-alt"></i>
+              <p>Phone: 8250676762</p>
+            </div>
+            <div class="contact-item" style="bottom: 20%; right: 10%">
+              <i class="fab fa-linkedin"></i>
+              <p>
+                LinkedIn:
+                <a
+                  href="https://www.linkedin.com/in/anmol-sah-551083238/"
+                  target="_blank"
+                  >Connect with me</a
+                >
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>© 2024 Anmol Sah. All rights reserved.</p>
+        <div class="footer-icons">
+          <a href="https://github.com/anmolsah" target="_blank" title="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://x.com/anni_i29" target="_blank" title="Twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/anmol-sah-551083238/"
+            target="_blank"
+            title="LinkedIn"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
