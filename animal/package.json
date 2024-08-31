@@ -1,0 +1,14 @@
+{
+  "name": "wlife",
+  "version": "1.0.0",
+  "description": "animal landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "animal"
+  ],
+  "author": "Anmol Sah",
+  "license": "ISC"
+}
