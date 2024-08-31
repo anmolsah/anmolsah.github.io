@@ -1,0 +1,160 @@
+
+body {
+    background-color: rgb(179, 238, 218);
+    font-family: sans-serif;
+}
+
+.info {
+    width: 1200px;
+    height: 250px;
+    background-image: linear-gradient(90deg, rgb(104, 198, 227), rgb(204, 204, 239), rgb(214, 125, 207));
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color: rgb(230, 245, 250);
+}
+
+#number {
+    font-size: 50px;
+    margin: 60px;
+    color: rgb(5, 47, 61);
+}
+
+button {
+    margin-left: 300px;
+    box-sizing: border-box;
+    height: 50px;
+    width: 60px;
+    border: 1px solid rgb(26, 2, 2);
+    border-radius: 50%;
+    text-decoration: solid;
+    text-transform: capitalize;
+    box-shadow: 2px 4px 8px 10px rgba(249, 247, 251, 0.944);
+    border-style: none;
+    font-weight: 600;
+    position: relative;
+    top: -27px;
+    cursor: pointer;
+}
+
+.counter-main {
+    width: 800px;
+    height: 150px;
+    background-color: rgb(60, 60, 70);
+    position: relative;
+    left: 400px;
+}
+
+.counter {
+    height: 100px;
+    width: 200px;
+    background-color: rgb(243, 243, 249);
+    overflow: hidden;
+    margin: 100px;
+    position: relative;
+    top: 25px;
+    left: 230px;
+    margin-top: 58px;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+p {
+    text-align: center;
+    line-height: 80px;
+    height: 100%;
+    margin: 0px;
+    width: 100%;
+    background-color: aliceblue;
+    border-top: 2px solid black;
+}
+
+@media screen and (max-width: 1400px) {
+    .info {
+        width: 1000px;
+        margin-left: 100px;
+    }
+    
+    .counter-main {
+        width: 600px;
+        left: 300px;
+    }
+    
+    .counter {
+        margin: 50px;
+        left: 130px;
+    }
+    
+    button {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .info {
+        width: 800px;
+        margin-left: 50px;
+    }
+    
+    .counter-main {
+        width: 400px;
+        left: 200px;
+    }
+    
+    .counter {
+        margin: 30px;
+        left: 100px;
+    }
+    
+    button {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .info {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .counter-main {
+        width: 90%;
+        left: 5%;
+    }
+    
+    .counter {
+        margin: 20px;
+        left: 10px;
+    }
+    
+    button {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .info {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+    
+    .counter-main {
+        width: 90%;
+        left: 5%;
+    }
+    
+    .counter {
+        margin: 20px;
+        left: 10px;
+    }
+    
+    button {
+        margin-left: 5%;
+    }
+}
