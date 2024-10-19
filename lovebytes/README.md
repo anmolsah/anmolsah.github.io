@@ -13,7 +13,7 @@ LoveBytes is a simple web application that allows users to search for meal sugge
 
 ## Demo
 
-You can view a live demo of the LoveBytes app [here](#). (https://anmolsah.github.io/lovebytes/)]
+You can view a live demo of the LoveBytes app [here](#)(https://anmolsah.github.io/lovebytes/)]
 
 ## Features
 
